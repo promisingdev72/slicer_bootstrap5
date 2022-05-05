@@ -1,0 +1,222 @@
+@font-face {
+  font-family: "Default-Font";
+  src: url("../font/LexendTera-VariableFont_wght.ttf") format("woff2");
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Prompt&family=Yanone+Kaffeesatz:wght@500&display=swap");
+
+.sign {
+  font-family: "Great Vibes", cursive;
+  /* font-family: "Prompt", sans-serif; */
+  /* font-family: "Yanone Kaffeesatz", sans-serif; */
+}
+* {
+  font-family: Default-Font;
+}
+.primary-color {
+  color: #013151 !important;
+}
+.header {
+  height: 106px;
+}
+.nav-right {
+  width: 250px;
+}
+.right-menu {
+  background-color: #3e7f7a;
+  z-index: 9999;
+  width: 200px;
+  height: 80px;
+  border-bottom-left-radius: 20px;
+}
+.primary-bg {
+  background-image: url(../images/background.png);
+}
+.secondary-bg {
+  background-color: #013151;
+}
+.w-80 {
+  width: 80% !important;
+}
+.rounded-left-top-20 {
+  border-top-left-radius: 20px;
+}
+.rounded-left-bottom-20 {
+  border-bottom-left-radius: 20px;
+}
+.py-100 {
+  padding-top: 200px;
+  padding-bottom: 100px;
+}
+.vh-90 {
+  height: 90vh;
+}
+.rounded-15 {
+  border-radius: 15px;
+}
+.img-rounded-15 {
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+.img2-rounded-15 {
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+.bottom-m20 {
+  bottom: -20px;
+}
+.right-25 {
+  right: 25px;
+}
+.w-90 {
+  width: 90% !important;
+}
+.top-300 {
+  top: 300px;
+}
+.mb-m300 {
+  margin-bottom: -300px;
+}
+.pt-300 {
+  padding-top: 300px;
+}
+.px-200 {
+  padding: 0 200px !important;
+}
+.px-100 {
+  padding: 0 100px !important;
+}
+.mt-250 {
+  margin-top: 250px !important;
+}
+.p-60 {
+  padding-left: 100px !important;
+  padding-right: 100px !important;
+  padding-top: 20px !important;
+  padding-bottom: 50px !important;
+}
+.p-50 {
+  padding: 100px !important;
+}
+.m-50 {
+  margin-top: 150px !important;
+}
+.mt-m100 {
+  margin-top: -100px !important;
+}
+.mt-m70 {
+  margin-top: -70px !important;
+}
+.third-bg {
+  background-color: #3e7f7a;
+}
+.third-color {
+  color: #3e7f7a;
+}
+.mx-50 {
+  margin: 0 50px !important;
+}
+.wh-200 {
+  width: 150px;
+  height: 150px;
+}
+.btn-more {
+  cursor: pointer;
+}
+.triangle {
+  position: relative;
+}
+.triangle::after {
+  content: "\2023";
+  color: #3e7f7a;
+  position: absolute;
+  font-size: 100px;
+  top: 50%;
+  right: 0;
+  transform: translate(100px, -50%);
+}
+.w-30 {
+  width: 30%;
+}
+.titleTriangle::before {
+  content: "\2023";
+  font-size: 100px;
+  color: #3e7f7a;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translate(-50px, -50%);
+}
+.underTitle::after {
+  content: "";
+  height: 2px;
+  width: 10%;
+  position: absolute;
+  text-align: center;
+  background-color: white;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+.leftTriangle::after {
+  content: "\2023";
+  font-size: 300px;
+  color: #3e7f7a;
+  position: absolute;
+  top: 50%;
+  left: 0;
+}
+.underLine::before {
+  content: "";
+  height: 3px;
+  width: 15%;
+  background: #013151;
+  position: absolute;
+  bottom: -30px;
+  left: 0;
+}
+.btn-more::after {
+  content: "\2023";
+  color: white;
+  position: absolute;
+  font-size: 50px;
+  top: 0;
+  right: 0;
+  transform: translate(-100%, -10px);
+}
+.box-title {
+  margin-left: 25px;
+}
+.box-title::after {
+  content: "\2023";
+  color: #3e7f7a;
+  font-size: 80px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translate(-30px, -43%);
+}
+.third-color {
+  color: #3e7f7a;
+}
+.rounded-25 {
+  border-radius: 25px;
+}
+.btn-six::after {
+  content: "\2023";
+  position: absolute;
+  color: white;
+  font-size: 50px;
+  top: 50%;
+  right: 0;
+  transform: translate(-30px, -50%);
+}
+.btn-six {
+  cursor: pointer;
+}
+.px-100 {
+  padding: 0 100px !important;
+}
+.rounded-20 {
+  border-radius: 20px;
+}
